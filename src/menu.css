@@ -1,0 +1,92 @@
+p.menu-heading {
+  font-size: 2.5rem;
+  align-self: center;
+}
+
+div.menu-content {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+div.food-section, div.wine-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+div.food-section {
+  padding: 48px 48px 48px 16px;
+}
+
+div.wine-section {
+  padding: 48px 16px 48px 48px;
+}
+
+div.food-section > p, div.wine-section > p {
+  font-size: 2.5rem;
+}
+
+div.food-item, div.wine-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+div.food-desc, div.wine-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+img.food-image, img.wine-image {
+  max-width: 300px;
+  border: 2px solid #f6f8f4;
+}
+
+img.food-image {
+  max-height: 300px;
+}
+
+img.wine-image {
+  max-height: 400px;
+}
+
+p.food-name, p.wine-name {
+  font-size: 2rem;
+}
+
+p.food-label, p.wine-label {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+p.food-about, p.wine-about {
+  flex: 1;
+
+}
+
+p.food-price, p.wine-price {
+  font-size: 1.75rem;
+  align-self: flex-end;
+  font-style: italic;
+}
+
+div.full-price {
+  font-size: 1.75rem;
+  align-self: flex-end;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+p.food-discount {
+  text-decoration: line-through;
+}
